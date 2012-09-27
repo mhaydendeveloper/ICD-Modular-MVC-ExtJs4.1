@@ -1,0 +1,43 @@
+﻿{
+    "configuration": {
+		"minified": false,
+		"version": "ICD Viewer for ExtJs v 1.0.0",
+		"configDir": "data/",
+		"viewDir": "assets/js/app/views/",
+        "title": "Level 3 Viewer",
+        "subTitle": "Viewer Default Area",
+        "style": [
+            {
+                "colors": [
+                    "0xFFFFFF",
+                    "0x333333",
+                    "0x101010",
+                    "0x000000",
+                    "0xFFD700"
+                ]
+            }
+        ],
+
+		"splashView": {
+			"label": "ICD Viewer Splash Page",
+			"config": "SplashView/SplashView.json",
+			"url": "SplashView/SplashView.js",
+			"namespace": "Views.SplashView.SplashView"
+		},
+
+		"controls": [
+			{
+				"config": "HeaderController/HeaderController.json",
+				"url": "HeaderController/HeaderController.js",
+				"namespace": "Views.HeaderController.HeaderController",
+				"top": 0,
+				"left": 0
+			}
+		],
+
+		"viewContainer":{
+			"layout":"",
+			"views":[ ]
+		}
+    }
+}

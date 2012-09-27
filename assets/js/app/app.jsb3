@@ -1,0 +1,265 @@
+{
+    "projectName": "Project Name",
+    "licenseText": "Copyright(c) 2012 Company Name",
+    "builds": [
+        {
+			"mame": "Application::Production - ICD EXT Library",
+			"target": "app-icd-ext-library.min.js",
+			"compress": true,
+			"files": [
+				{
+					"path": "base/ICD/Ext/app/",
+					"name": "Controller.js"
+				},
+				{
+					"path": "base/ICD/Ext/button/",
+					"name": "Button.js"
+				},
+				{
+					"path": "base/ICD/Ext/chart/",
+					"name": "Chart.js"
+				},
+				{
+					"path": "base/ICD/Ext/container/",
+					"name": "Container.js"
+				},
+				{
+					"path": "base/ICD/Ext/data/proxy/",
+					"name": "Ajax.js"
+				},
+				{
+					"path": "base/ICD/Ext/data/",
+					"name": "ArrayStore.js"
+				},
+				{
+					"path": "base/ICD/Ext/data/",
+					"name": "Model.js"
+				},
+				{
+					"path": "base/ICD/Ext/data/",
+					"name": "Store.js"
+				},
+				{
+					"path": "base/ICD/Ext/dd/",
+					"name": "DropTarget.js"
+				},
+				{
+					"path": "base/ICD/Ext/form/field/",
+					"name": "ComboBox.js"
+				},
+				{
+					"path": "base/ICD/Ext/form/field/",
+					"name": "Text.js"
+				},
+				{
+					"path": "base/ICD/Ext/form/",
+					"name": "FieldContainer.js"
+				},
+				{
+					"path": "base/ICD/Ext/form/",
+					"name": "FieldSet.js"
+				},
+				{
+					"path": "base/ICD/Ext/form/",
+					"name": "Label.js"
+				},
+				{
+					"path": "base/ICD/Ext/form/",
+					"name": "Panel.js"
+				},
+				{
+					"path": "base/ICD/Ext/grid/column/",
+					"name": "Action.js"
+				},
+				{
+					"path": "base/ICD/Ext/grid/",
+					"name": "Panel.js"
+				},
+				{
+					"path": "base/ICD/Ext/grid/",
+					"name": "RowNumberer.js"
+				},
+				{
+					"path": "base/ICD/Ext/layout/container/",
+					"name": "Accordion.js"
+				},
+				{
+					"path": "base/ICD/Ext/layout/container/",
+					"name": "Anchor.js"
+				},
+				{
+					"path": "base/ICD/Ext/layout/container/",
+					"name": "Column.js"
+				},
+				{
+					"path": "base/ICD/Ext/layout/container/",
+					"name": "VBox.js"
+				},
+				{
+					"path": "base/ICD/Ext/panel/",
+					"name": "Panel.js"
+				},
+				{
+					"path": "base/ICD/Ext/tab/",
+					"name": "Panel.js"
+				},
+				{
+					"path": "base/ICD/Ext/toolbar/",
+					"name": "Toolbar.js"
+				},
+				{
+					"path": "base/ICD/Ext/util/",
+					"name": "Observable.js"
+				},
+				{
+					"path": "base/ICD/Ext/window/",
+					"name": "Window.js"
+				},
+				{
+					"path": "base/ICD/Ext/",
+					"name": "AbstractPlugin.js"
+				}
+			]
+		},
+
+		{
+            "mame": "Application::Production - ICD Mixins and Base Classes",
+			"target": "app-icd-mixins-base.min.js",
+            "compress": true,
+            "files": [
+				{
+                    "path": "base/ICD/mixins/",
+                    "name": "BaseMixin.js"
+                },
+                {
+                    "path": "base/ICD/mixins/",
+                    "name": "ConsoleMixin.js"
+                },
+				{
+                    "path": "base/ICD/mixins/",
+                    "name": "EventMixin.js"
+                },
+				{
+                    "path": "base/ICD/",
+                    "name": "BaseController.js"
+                },
+				{
+                    "path": "base/ICD/",
+                    "name": "BaseModel.js"
+                },
+				{
+                    "path": "base/ICD/",
+                    "name": "BaseStore.js"
+                },
+				{
+                    "path": "base/ICD/",
+                    "name": "BaseView.js"
+                },								
+            ]
+        },
+
+		{
+            "name": "Application::Production - Viewer API",
+            "target": "app-all-viewer-api.min.js",
+            "compress": true,
+            "files": [
+				{
+                    "path": "",
+                    "name": "app.js"
+                },
+                {
+                    "path": "base/viewer/",
+                    "name": "ErrorMessage.js"
+                },
+				{
+                    "path": "base/viewer/",
+                    "name": "AppEvent.js"
+                },
+				{
+                    "path": "base/viewer/managers/",
+                    "name": "ConfigManager.js"
+                },
+				{
+                    "path": "base/viewer/managers/",
+                    "name": "DataManager.js"
+                },
+				{
+                    "path": "base/viewer/managers/",
+                    "name": "ViewportManager.js"
+                },
+				{
+                    "path": "base/viewer/managers/",
+                    "name": "UIManager.js"
+                },
+				{
+                    "path": "base/viewer/managers/",
+                    "name": "ViewsManager.js"
+                },
+				{
+                    "path": "base/viewer/",
+                    "name": "viewContainer.js"
+                },
+				{
+                    "path": "base/viewer/base/",
+                    "name": "Controller.js"
+                },
+				{
+                    "path": "base/viewer/base/",
+                    "name": "Model.js"
+                },
+				{
+                    "path": "base/viewer/base/",
+                    "name": "Store.js"
+                }								
+            ]
+        },
+
+		{
+            "name": "Header Controller - production",
+            "target": "views/HeaderController/HeaderController-all.min.js",
+            "compress": true,
+            "files": [
+				{
+                    "path": "views/HeaderController/",
+                    "name": "HeaderController.js"
+                },
+                {
+                    "path": "views/HeaderController/model/",
+                    "name": "HeaderControllerModel.js"
+                },
+				{
+                    "path": "views/HeaderController/store/",
+                    "name": "HeaderControllerStore.js"
+                },
+				{
+                    "path": "views/HeaderController/view/",
+                    "name": "HeaderControllerView.js"
+                }
+            ]
+        },
+		{
+            "name": "Splash View - production",
+            "target": "views/SplashView/SplashView-all.min.js",
+            "compress": true,
+            "files": [
+				{
+                    "path": "views/SplashView/",
+                    "name": "SplashView.js"
+                },
+                {
+                    "path": "views/SplashView/model/",
+                    "name": "SplashViewModel.js"
+                },
+				{
+                    "path": "views/SplashView/store/",
+                    "name": "SplashViewStore.js"
+                },
+				{
+                    "path": "views/SplashView/view/",
+                    "name": "SplashViewView.js"
+                }								
+            ]
+        }
+    ],
+    "resources": []
+}

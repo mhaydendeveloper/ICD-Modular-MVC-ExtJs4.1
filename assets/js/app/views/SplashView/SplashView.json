@@ -1,0 +1,8 @@
+﻿{
+	"configuration": {
+		"width": 1000,
+		"height": 600,
+		"modal": true,
+		"contentTemplate": "templates/splashViewTemplate.html"
+	}
+}
